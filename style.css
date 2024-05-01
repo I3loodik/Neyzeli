@@ -1,0 +1,123 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tablink {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+  
+}
+body {
+    font-size: 125%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bigger-font {
+    font-size: 125%;
+}
+
+body {
+    background-image: url("http://surl.li/tjaau");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tabcontent {
+    background-image: url("http://surl.li/tjaau");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tab-whoAmI, .tab-aboutMe, .tab-gallery, .tab-contact {
+    background-image: url('http://surl.li/tjaau');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    color: white; 
+}
+
+.tabs {
+    color: white; 
+}
+
+.tablink {
+    color: white;
+}
+
+a {
+    color: white; 
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabcontent img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tabcontent p {
+    text-align: center;
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    text-align: center;
+}
+
+.image-group img {
+    display: inline-block;
+    margin: 10px; 
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .tabcontent {
+        padding: 10px;
+    }
+
+    .tabcontent img {
+        width: 100%;
+    }
+}
+
+.tabcontent {
+    display: none;
+}
