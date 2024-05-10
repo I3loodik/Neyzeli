@@ -1,0 +1,154 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tablink {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+  
+}
+body {
+    font-size: 125%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bigger-font {
+    font-size: 125%;
+}
+
+body {
+    background-image: url("https://sun9-18.userapi.com/impg/Z5pYo7phNA_Ld3AfPlp3VJ0-_wUdW4IIQ-c5cw/GhvUuM92QUI.jpg?size=2560x1707&quality=96&sign=55dfd57b4db1a8a8c3ffd443d17590be&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tabcontent {
+    background-image: url("https://sun9-18.userapi.com/impg/Z5pYo7phNA_Ld3AfPlp3VJ0-_wUdW4IIQ-c5cw/GhvUuM92QUI.jpg?size=2560x1707&quality=96&sign=55dfd57b4db1a8a8c3ffd443d17590be&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tab-whoAmI, .tab-aboutMe, .tab-gallery, .tab-contact {
+    background-image: url('https://sun9-18.userapi.com/impg/Z5pYo7phNA_Ld3AfPlp3VJ0-_wUdW4IIQ-c5cw/GhvUuM92QUI.jpg?size=2560x1707&quality=96&sign=55dfd57b4db1a8a8c3ffd443d17590be&type=album');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    color: white; 
+}
+
+.tabs {
+    color: white; 
+}
+
+.tablink {
+    color: white;
+}
+
+a {
+    color: white; 
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabcontent img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tabcontent p {
+    text-align: center;
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    text-align: center;
+}
+
+.image-group img {
+    display: inline-block;
+    margin: 10px; 
+}
+
+/* Стили для десктопной версии */
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+  
+    body {
+        font-size: 16px;
+    }
+    
+}
+
+.tabcontent {
+  display: none;
+}
+
+.contacts-table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contacts-table table {
+  margin: 0 auto;
+}
+
+.contacts-table th, .contacts-table td {
+  padding: 5px 10px;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent h3 {
+    text-align: center;
+}
