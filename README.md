@@ -1,2 +1,0 @@
-# Neyzeli
-Yra win
